@@ -47,8 +47,8 @@ module convolver_tb;
 		calculation = 1;
 		weight = 144'h0008_7654_3210_0000_0000_0000_0000_0000_0000; 
 		for(i = 0; i < 255; i = i + 1) begin
-		activation = i;
-		#clkp; 
+			activation = i;
+			#clkp; 
 		end
 	end 
       always #(clkp/2) clk = ~clk;      
