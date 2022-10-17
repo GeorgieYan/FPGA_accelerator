@@ -14,7 +14,7 @@ module convolver_tb;
 	wire finish; 
 	wire valid; 
 	integer i; 
-    parameter clkp = 40; 
+    	parameter clkp = 40; 
 	// Instantiate the Unit Under Test (UUT)
 	convolver #(9'h004,9'h003,1) uut (
 		.clk(clk), 
