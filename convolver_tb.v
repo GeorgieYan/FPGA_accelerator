@@ -45,7 +45,6 @@ module convolver_tb;
         reset = 0;	
         #10;	
 		calculation = 1;
-        //we use the same set of weights and activations as the sample input in the golden model (python code) above.
 		weight = 144'h0008_7654_3210_0000_0000_0000_0000_0000_0000; 
 		for(i = 0; i < 255; i = i + 1) begin
 		activation = i;
